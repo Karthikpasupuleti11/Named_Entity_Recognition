@@ -1,0 +1,14 @@
+(venv) cdac@cdac-OptiPlex-9030-AIO:~/Documents/GLiNER-main$ python accuracy.py
+Loading model from /home/cdac/Documents/GLiNER-main/gliner_nuner_v1...
+Loading data from nuner_train.json...
+Running evaluation on 1000 examples...
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+
+==============================
+FINAL RESULTS
+==============================
+('P: 73.98%\tR: 78.91%\tF1: 76.37%\n', np.float64(0.7636598771419334))
+
+
+
+('P: 74.19%\tR: 78.17%\tF1: 76.13%\n', np.float64(0.7613057152152696))
