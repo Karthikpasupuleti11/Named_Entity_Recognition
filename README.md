@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> **🚀 GLiNER2 is Now Available from [Fastino Labs](https://github.com/fastino-ai)!** A unified multi-task model for NER, Text Classification & Structured Data Extraction. Check out [fastino-ai/GLiNER2 →](https://github.com/fastino-ai/GLiNER2)
-
 # 👑 GLiNER: Generalist and Lightweight Model for Named Entity Recognition
 
 ---
@@ -22,14 +19,6 @@
 
 GLiNER is a framework for training and deploying Named Entity Recognition (NER) models that can identify any entity type using bidirectional transformer encoders (BERT-like). Beyond standard NER, GLiNER supports multiple tasks including joint entity and relation extraction through specialized architectures. It provides a practical alternative to both traditional NER models, which are limited to predefined entity types, and Large Language Models (LLMs), which offer flexibility but require significant computational resources.
 
-
-## Example Notebooks
-
-Explore various examples including finetuning, ONNX conversion, and synthetic data generation. 
-
-- [Example Notebooks](https://github.com/urchade/GLiNER/tree/main/examples)
-- Finetune on Colab &nbsp;[<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" />](https://colab.research.google.com/drive/1HNKd74cmfS9tGvWrKeIjSxBt01QQS7bq?usp=sharing)
-## 🛠 Installation & Usage
 
 ### Installation
 ```bash
@@ -76,70 +65,6 @@ UEFA Champions Leagues => competitions
 UEFA European Championship => competitions
 UEFA Nations League => competitions
 European Championship => competitions
-```
-## 🌟 Maintainers
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <strong>Urchade Zaratiana</strong><br>
-        <em>Member of technical staff at Fastino</em><br>
-        <a href="https://www.linkedin.com/in/urchade-zaratiana/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-      </td>
-      <td align="center">
-        <strong>Ihor Stepanov</strong><br>
-        <em>Co-Founder at Knowledgator</em><br>
-        <a href="https://www.linkedin.com/in/ihor-stepanov/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 👨‍💻 Model Authors
-The model authors are:
-* [Urchade Zaratiana](https://huggingface.co/urchade)
-* [Ihor Stepanov](https://github.com/Ingvarstep)
-* Nadi Tomeh
-* Pierre Holat
-* Thierry Charnois
-
-## 📚 Citations
-
-If you find GLiNER useful in your research, please consider citing our papers:
-
-```bibtex
-@inproceedings{zaratiana-etal-2024-gliner,
-    title = "{GL}i{NER}: Generalist Model for Named Entity Recognition using Bidirectional Transformer",
-    author = "Zaratiana, Urchade  and
-      Tomeh, Nadi  and
-      Holat, Pierre  and
-      Charnois, Thierry",
-    editor = "Duh, Kevin  and
-      Gomez, Helena  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
-    month = jun,
-    year = "2024",
-    address = "Mexico City, Mexico",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.naacl-long.300",
-    doi = "10.18653/v1/2024.naacl-long.300",
-    pages = "5364--5376",
-    abstract = "Named Entity Recognition (NER) is essential in various Natural Language Processing (NLP) applications. Traditional NER models are effective but limited to a set of predefined entity types. In contrast, Large Language Models (LLMs) can extract arbitrary entities through natural language instructions, offering greater flexibility. However, their size and cost, particularly for those accessed via APIs like ChatGPT, make them impractical in resource-limited scenarios. In this paper, we introduce a compact NER model trained to identify any type of entity. Leveraging a bidirectional transformer encoder, our model, GLiNER, facilitates parallel entity extraction, an advantage over the slow sequential token generation of LLMs. Through comprehensive testing, GLiNER demonstrate strong performance, outperforming both ChatGPT and fine-tuned LLMs in zero-shot evaluations on various NER benchmarks.",
-}
-```
-
-```bibtex
-@misc{stepanov2024glinermultitaskgeneralistlightweight,
-      title={GLiNER multi-task: Generalist Lightweight Model for Various Information Extraction Tasks}, 
-      author={Ihor Stepanov and Mykhailo Shtopko},
-      year={2024},
-      eprint={2406.12925},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2406.12925}, 
-}
 ```
 ## Support and funding
 
