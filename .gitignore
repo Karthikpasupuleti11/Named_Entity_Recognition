@@ -224,3 +224,24 @@ env/
 # OS
 # ========================
 .DS_Store
+# ========================
+# Model weights & artifacts
+# ========================
+*.bin
+*.pt
+*.pth
+*.onnx
+gliner_nuner_v1/
+models/
+checkpoint-*/
+gliner_logs/
+
+# ========================
+# Auto-generated caches
+# ========================
+.gradio/
+
+# ========================
+# Optional: docs images (if push still fails)
+# ========================
+# docs/images/
